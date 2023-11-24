@@ -9,6 +9,7 @@
         "moduleResolution": "node",
         "noImplicitAny": false,
         "outDir": "build",
+        "rootDir": "./src",
         "baseUrl": "src",
         "removeComments": true,
         "typeRoots": [
