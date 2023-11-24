@@ -66,6 +66,7 @@
     "@config": "build/core/config",
     "@core": "build/core",
     "@middlewares": "build/middlewares",
-    "@helpers": "build/helpers"
+    "@helpers": "build/helpers",
+    "@standalones": "build/standalones"
   }
 }
