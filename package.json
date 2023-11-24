@@ -11,7 +11,7 @@
     "pm2:start": "pm2 start npm --name=\"chat-bot-openai\" -- start",
     "pm2:restart": "pm2 restart \"chat-bot-openai\"",
     "pm2:delete": "pm2 delete \"chat-bot-openai\"",
-    "start": "npm run build:clean && cross-env node --no-warnings ./build/server.js",
+    "start": "cross-env node --no-warnings ./build/server.js",
     "start:ts": "node --inspect -r ts-node/register -r tsconfig-paths/register ./src/server.ts",
     "dev": "nodemon --ext \"ts,js,json\" --ignore \"node_modules\" --exec npm -- run start:ts",
     "build": "npx tsc",
