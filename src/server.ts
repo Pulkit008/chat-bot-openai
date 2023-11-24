@@ -17,7 +17,7 @@ import Application from './app'
 import Bootstrap from '@core/bootstrap'
 import express from 'express'
 const expressApp: express.Application = Application.express()
-import socketioStandalone from 'standalones/socketio.standalone';
+import socketioStandalone from '@standalones/socketio.standalone';
 
 // Execute Bootstrap Code
 Bootstrap(Application).then(() => {
